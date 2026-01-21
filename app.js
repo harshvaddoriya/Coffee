@@ -6,7 +6,7 @@ import messageRouter from "./router/messageRouter.js";
 
 const app = express();
 
-dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path: "./.env" });
 
 //frontend connection
 // app.use(cors({
