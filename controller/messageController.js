@@ -21,7 +21,7 @@ export const sendMessage = async (req, res) => {
         // });
 
     } catch (error) {
-
+        console.log("Error details:", error);
 
         if (error.name == "ValidationError") {
             let errorMessage = "";
